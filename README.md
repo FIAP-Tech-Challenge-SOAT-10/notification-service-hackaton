@@ -26,9 +26,12 @@ Também permite disparar notificações manualmente por endpoint HTTP.
 
 src/
 domain/            # entidades e regras de negócio
-application/       # casos de uso
+application/       
+  interfaces/
+    dto/
+    controllers/ 
+  use-cases/ # casos de uso
 infrastructure/    # kafka, mail, controllers
-dto/               # validações de entrada
 main.ts
 app.module.ts
 templates/           # templates Handlebars para e-mail
