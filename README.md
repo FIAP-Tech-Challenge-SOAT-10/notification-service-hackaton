@@ -53,7 +53,7 @@ Clone o repositório e instale dependências:
 git clone git@github.com:FIAP-Tech-Challenge-SOAT-10/notification-service-hackaton.git
 cd notification-service-hackaton
 npm install
-````
+```
 
 ---
 
